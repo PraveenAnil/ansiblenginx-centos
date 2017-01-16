@@ -3,8 +3,8 @@
   hosts: all
   remote_user: demouser
   # remote_user: user
-   become: yes
-   become_method: sudo
+   #become: yes
+ #  become_method: sudo
 
   roles:
     - common
